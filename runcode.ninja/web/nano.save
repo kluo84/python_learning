@@ -1,0 +1,106 @@
+UID PID PPID C STIME TTY TIME CMD root 1 0 0 Oct03 ?  00:00:09 /sbin/init root 2 0 0 Oct03 ?  00:00:00 [kthreadd] root 3 2 0 Oct03 ?  
+00:00:00 [rcu_gp] root 4 2 0 Oct03 ?  00:00:00 [rcu_par_gp] root 6 2 0 Oct03 ?  00:00:00 [kworker/0:0H-kblockd] root 8 2 0 Oct03 ?  
+00:00:00 [mm_percpu_wq] root 9 2 0 Oct03 ?  00:00:01 [ksoftirqd/0] root 10 2 0 Oct03 ?  00:00:31 [rcu_sched] root 11 2 0 Oct03 ?  
+00:00:00 [rcu_bh] root 12 2 0 Oct03 ?  00:00:02 [migration/0] root 13 2 0 Oct03 ?  00:00:00 [watchdog/0] root 14 2 0 Oct03 ?  00:00:00 
+[cpuhp/0] root 15 2 0 Oct03 ?  00:00:00 [cpuhp/1] root 16 2 0 Oct03 ?  00:00:00 [watchdog/1] root 17 2 0 Oct03 ?  00:00:02 
+[migration/1] root 18 2 0 Oct03 ?  00:00:01 [ksoftirqd/1] root 20 2 0 Oct03 ?  00:00:00 [kworker/1:0H] root 21 2 0 Oct03 ?  00:00:00 
+[cpuhp/2] root 22 2 0 Oct03 ?  00:00:00 [watchdog/2] root 23 2 0 Oct03 ?  00:00:02 [migration/2] root 24 2 0 Oct03 ?  00:00:01 
+[ksoftirqd/2] root 26 2 0 Oct03 ?  00:00:00 [kworker/2:0H-kblockd] root 27 2 0 Oct03 ?  00:00:00 [cpuhp/3] root 28 2 0 Oct03 ?  
+00:00:00 [watchdog/3] root 29 2 0 Oct03 ?  00:00:02 [migration/3] root 30 2 0 Oct03 ?  00:00:01 [ksoftirqd/3] root 32 2 0 Oct03 ?  
+00:00:00 [kworker/3:0H-kblockd] root 33 2 0 Oct03 ?  00:00:00 [kdevtmpfs] root 34 2 0 Oct03 ?  00:00:00 [netns] root 35 2 0 Oct03 ?  
+00:00:00 [kauditd] root 38 2 0 Oct03 ?  00:00:00 [khungtaskd] root 39 2 0 Oct03 ?  00:00:00 [oom_reaper] root 40 2 0 Oct03 ?  00:00:00 
+[writeback] root 41 2 0 Oct03 ?  00:00:00 [kcompactd0] root 42 2 0 Oct03 ?  00:00:00 [ksmd] root 43 2 0 Oct03 ?  00:00:09 [khugepaged] 
+root 44 2 0 Oct03 ?  00:00:00 [crypto] root 45 2 0 Oct03 ?  00:00:00 [kintegrityd] root 46 2 0 Oct03 ?  00:00:00 [kblockd] root 47 2 0 
+Oct03 ?  00:00:00 [edac-poller] root 48 2 0 Oct03 ?  00:00:00 [devfreq_wq] root 49 2 0 Oct03 ?  00:00:00 [watchdogd] root 53 2 0 Oct03 
+?  00:00:12 [kswapd0] root 70 2 0 Oct03 ?  00:00:00 [kthrotld] root 71 2 0 Oct03 ?  00:00:00 [ipv6_addrconf] root 134 2 0 Oct03 ?  
+00:00:00 [mpt_poll_0] root 135 2 0 Oct03 ?  00:00:00 [ata_sff] root 136 2 0 Oct03 ?  00:00:00 [scsi_eh_0] root 137 2 0 Oct03 ?  
+00:00:00 [mpt/0] root 147 2 0 Oct03 ?  00:00:00 [scsi_tmf_0] root 148 2 0 Oct03 ?  00:00:00 [scsi_eh_1] root 149 2 0 Oct03 ?  00:00:00 
+[scsi_tmf_1] root 189 2 0 Oct03 ?  00:00:04 [kworker/3:1H-kblockd] root 192 2 0 Oct03 ?  00:00:00 [scsi_eh_2] root 193 2 0 Oct03 ?  
+00:00:00 [scsi_tmf_2] root 198 2 0 Oct03 ?  00:00:03 [kworker/1:1H-kblockd] root 199 2 0 Oct03 ?  00:00:03 [kworker/2:1H-kblockd] root 
+228 2 0 Oct03 ?  00:00:00 [kworker/u65:0] root 241 2 0 Oct03 ?  00:00:03 [jbd2/sda1-8] root 242 2 0 Oct03 ?  00:00:00 [ext4-rsv-conver] 
+root 253 2 0 Oct03 ?  00:00:05 [kworker/0:1H-kblockd] root 282 1 0 Oct03 ?  00:00:05 /lib/systemd/systemd-journald root 285 1 0 Oct03 ?  
+00:02:54 /usr/bin/vmtoolsd root 305 1 0 Oct03 ?  00:00:00 /lib/systemd/systemd-udevd systemd+ 325 1 0 Oct03 ?  00:00:06 
+/lib/systemd/systemd-timesyncd root 452 2 0 Oct03 ?  00:00:00 [ttm_swap] root 453 2 0 Oct03 ?  00:00:00 [irq/16-vmwgfx] root 485 1 0 
+Oct03 ?  00:00:00 /usr/sbin/ModemManager --filter-policy=strict root 487 1 0 Oct03 ?  00:00:00 /usr/lib/accountsservice/accounts-daemon 
+root 489 1 0 Oct03 ?  00:00:11 /usr/sbin/irqbalance --foreground message+ 490 1 0 Oct03 ?  00:00:07 /usr/bin/dbus-daemon --system 
+--address=systemd: --nofork --nopidfile --systemd-activation --syslog-only root 491 1 0 Oct03 ?  00:00:01 /lib/systemd/systemd-logind 
+root 492 1 0 Oct03 ?  00:00:05 /usr/sbin/NetworkManager --no-daemon root 493 1 0 Oct03 ?  00:00:01 /usr/sbin/rsyslogd -n -iNONE root 
+494 1 0 Oct03 ?  00:00:00 /usr/sbin/cron -f root 523 1 0 Oct03 ?  00:00:00 /usr/lib/policykit-1/polkitd --no-debug root 873 1 0 Oct03 ?  
+00:00:00 /usr/sbin/gdm3 root 987 873 0 Oct03 ?  00:00:00 gdm-session-worker [pam/gdm-launch-environment] Debian-+ 1090 1 0 Oct03 ?  
+00:00:00 /lib/systemd/systemd --user Debian-+ 1093 1090 0 Oct03 ?  00:00:00 (sd-pam) root 1097 492 0 Oct03 ?  00:00:00 /sbin/dhclient 
+-d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /run/dhclient-eth0.pid -lf 
+/var/lib/NetworkManager/dhclient-90c4b079-9aa9-4b52-a3a2-8a69f1076dd8-eth0.lease -cf /var/lib/NetworkManager/dhclient-eth0.conf eth0 
+Debian-+ 1143 987 0 Oct03 tty1 00:00:00 /usr/lib/gdm3/gdm-x-session gnome-session --autostart /usr/share/gdm/greeter/autostart Debian-+ 
+1145 1143 0 Oct03 tty1 00:00:00 /usr/lib/xorg/Xorg vt1 -displayfd 3 -auth /run/user/135/gdm/Xauthority -background none -noreset 
+-keeptty -verbose 3 Debian-+ 1831 1090 0 Oct03 ?  00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile 
+--systemd-activation --syslog-only Debian-+ 1833 1143 0 Oct03 tty1 00:00:00 /usr/lib/gnome-session/gnome-session-binary --autostart 
+/usr/share/gdm/greeter/autostart Debian-+ 1838 1090 0 Oct03 ?  00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher Debian-+ 1843 1838 0 
+Oct03 ?  00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3 Debian-+ 
+1845 1090 0 Oct03 ?  00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session Debian-+ 1853 1833 0 Oct03 tty1 00:00:04 
+/usr/bin/gnome-shell Debian-+ 1861 1090 0 Oct03 ?  00:00:00 /usr/bin/pulseaudio --daemonize=no rtkit 1862 1 0 Oct03 ?  00:00:02 
+/usr/lib/rtkit/rtkit-daemon root 1969 1 0 Oct03 ?  00:00:40 /usr/lib/packagekit/packagekitd root 1987 1 0 Oct03 ?  00:00:00 
+/usr/lib/upower/upowerd Debian-+ 1989 1833 0 Oct03 tty1 00:00:02 /usr/lib/gnome-settings-daemon/gsd-xsettings Debian-+ 1991 1833 0 
+Oct03 tty1 00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings Debian-+ 1993 1833 0 Oct03 tty1 00:00:00 
+/usr/lib/gnome-settings-daemon/gsd-clipboard Debian-+ 1994 1833 0 Oct03 tty1 00:26:06 /usr/lib/gnome-settings-daemon/gsd-color Debian-+ 
+1995 1833 0 Oct03 tty1 00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime Debian-+ 1997 1833 0 Oct03 tty1 00:00:00 
+/usr/lib/gnome-settings-daemon/gsd-housekeeping Debian-+ 1998 1833 0 Oct03 tty1 00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard 
+Debian-+ 1999 1833 0 Oct03 tty1 00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys Debian-+ 2000 1833 0 Oct03 tty1 00:00:00 
+/usr/lib/gnome-settings-daemon/gsd-mouse Debian-+ 2001 1833 0 Oct03 tty1 00:00:00 /usr/lib/gnome-settings-daemon/gsd-power Debian-+ 
+2002 1833 0 Oct03 tty1 00:00:00 /usr/lib/gnome-settings-daemon/gsd-print-notifications Debian-+ 2003 1833 0 Oct03 tty1 00:00:00 
+/usr/lib/gnome-settings-daemon/gsd-rfkill Debian-+ 2004 1833 0 Oct03 tty1 00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy 
+Debian-+ 2005 1833 0 Oct03 tty1 00:00:00 /usr/lib/gnome-settings-daemon/gsd-sharing Debian-+ 2006 1833 0 Oct03 tty1 00:00:00 
+/usr/lib/gnome-settings-daemon/gsd-smartcard Debian-+ 2007 1833 0 Oct03 tty1 00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound Debian-+ 
+2008 1833 0 Oct03 tty1 00:00:00 /usr/lib/gnome-settings-daemon/gsd-wacom root 2063 1 0 Oct03 ?  00:00:00 /sbin/wpa_supplicant -u -s -O 
+/run/wpa_supplicant colord 2084 1 0 Oct03 ?  00:00:00 /usr/lib/colord/colord root 2148 873 0 Oct03 ?  00:00:00 gdm-session-worker 
+[pam/gdm-password] root 2153 1 0 Oct03 ?  00:00:00 /lib/systemd/systemd --user root 2154 2153 0 Oct03 ?  00:00:00 (sd-pam) root 2165 
+2153 0 Oct03 ?  00:00:00 /usr/bin/pulseaudio --daemonize=no root 2167 2153 0 Oct03 ?  00:00:00 /usr/bin/dbus-daemon --session 
+--address=systemd: --nofork --nopidfile --systemd-activation --syslog-only root 2169 1 0 Oct03 ?  00:00:00 
+/usr/bin/gnome-keyring-daemon --daemonize --login root 2173 2148 0 Oct03 tty2 00:00:00 /usr/lib/gdm3/gdm-x-session --run-script 
+/usr/bin/gnome-session root 2175 2173 0 Oct03 tty2 00:00:01 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/0/gdm/Xauthority 
+-background none -noreset -keeptty -verbose 3 root 2182 2173 0 Oct03 tty2 00:00:00 /usr/lib/gnome-session/gnome-session-binary root 
+2235 2182 0 Oct03 ?  00:00:00 /usr/bin/ssh-agent /usr/bin/gnome-session root 2240 2153 0 Oct03 ?  00:00:00 
+/usr/lib/at-spi2-core/at-spi-bus-launcher root 2245 2240 0 Oct03 ?  00:00:00 /usr/bin/dbus-daemon 
+--config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3 root 2247 2153 0 Oct03 ?  00:00:00 
+/usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session root 2263 2182 0 Oct03 tty2 00:05:32 /usr/bin/gnome-shell root 2269 2153 0 
+Oct03 ?  00:00:00 /usr/lib/gvfs/gvfsd root 2274 2153 0 Oct03 ?  00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/0/gvfs -f -o big_writes 
+root 2292 2153 0 Oct03 ?  00:00:00 /usr/lib/gnome-shell/gnome-shell-calendar-server root 2299 2153 0 Oct03 ?  00:00:00 
+/usr/lib/gvfs/gvfs-udisks2-volume-monitor root 2303 2153 0 Oct03 ?  00:00:00 /usr/lib/evolution/evolution-source-registry root 2308 1 0 
+Oct03 ?  00:00:00 /usr/lib/udisks2/udisksd root 2315 2153 0 Oct03 ?  00:00:00 /usr/lib/gnome-online-accounts/goa-daemon root 2326 2153 
+0 Oct03 ?  00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor root 2330 2153 0 Oct03 ?  00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor 
+root 2334 2153 0 Oct03 ?  00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor root 2343 2153 0 Oct03 ?  00:00:00 
+/usr/lib/gnome-online-accounts/goa-identity-service root 2345 2153 0 Oct03 ?  00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor root 2353 
+2182 0 Oct03 tty2 00:00:00 /usr/lib/gnome-settings-daemon/gsd-power root 2355 2182 0 Oct03 tty2 00:00:00 
+/usr/lib/gnome-settings-daemon/gsd-print-notifications root 2356 2182 0 Oct03 tty2 00:00:00 /usr/lib/gnome-settings-daemon/gsd-rfkill 
+root 2357 2182 0 Oct03 tty2 00:00:00 /usr/lib/gnome-settings-daemon/gsd-screensaver-proxy root 2360 2182 0 Oct03 tty2 00:00:00 
+/usr/lib/gnome-settings-daemon/gsd-sharing root 2365 2182 0 Oct03 tty2 00:00:00 /usr/lib/gnome-settings-daemon/gsd-smartcard root 2368 
+2182 0 Oct03 tty2 00:00:03 /usr/lib/gnome-settings-daemon/gsd-xsettings root 2377 2182 0 Oct03 tty2 00:00:00 
+/usr/lib/gnome-settings-daemon/gsd-wacom root 2380 2182 0 Oct03 tty2 00:00:00 /usr/lib/gnome-settings-daemon/gsd-sound root 2383 2182 0 
+Oct03 tty2 00:00:00 /usr/lib/gnome-settings-daemon/gsd-a11y-settings root 2385 2182 0 Oct03 tty2 00:00:00 
+/usr/lib/gnome-settings-daemon/gsd-clipboard root 2389 2182 0 Oct03 tty2 00:26:08 /usr/lib/gnome-settings-daemon/gsd-color root 2395 
+2182 0 Oct03 tty2 00:00:00 /usr/lib/gnome-settings-daemon/gsd-datetime root 2398 2182 0 Oct03 tty2 00:00:04 
+/usr/lib/gnome-settings-daemon/gsd-housekeeping root 2404 2182 0 Oct03 tty2 00:00:00 /usr/lib/gnome-settings-daemon/gsd-keyboard root 
+2407 2182 0 Oct03 tty2 00:00:00 /usr/lib/gnome-settings-daemon/gsd-media-keys root 2409 2153 0 Oct03 ?  00:00:00 
+/usr/lib/dconf/dconf-service root 2410 2182 0 Oct03 tty2 00:00:00 /usr/lib/gnome-settings-daemon/gsd-mouse root 2437 1 0 Oct03 tty2 
+00:00:00 /usr/lib/gnome-settings-daemon/gsd-printer root 2456 2182 0 Oct03 tty2 00:00:00 
+/usr/lib/gnome-disk-utility/gsd-disk-utility-notify root 2457 2182 0 Oct03 tty2 00:00:10 /usr/bin/gnome-software --gapplication-service 
+root 2458 2182 0 Oct03 tty2 00:00:00 /usr/lib/tracker/tracker-miner-fs root 2463 2182 0 Oct03 tty2 00:00:00 
+/usr/lib/tracker/tracker-extract root 2466 2182 0 Oct03 tty2 00:00:00 /usr/lib/evolution/evolution-data-server/evolution-alarm-notify 
+root 2469 2182 0 Oct03 tty2 00:00:00 /usr/lib/tracker/tracker-miner-apps root 2473 1 0 Oct03 tty2 00:03:45 /usr/bin/vmtoolsd -n vmusr 
+root 2482 2153 0 Oct03 ?  00:00:03 /usr/lib/tracker/tracker-store root 2499 2153 0 Oct03 ?  00:00:00 
+/usr/lib/evolution/evolution-calendar-factory root 2562 2153 0 Oct03 ?  00:00:00 /usr/lib/evolution/evolution-addressbook-factory root 
+2785 2153 0 Oct03 ?  00:00:00 /usr/lib/gnome-terminal/gnome-terminal-server root 2795 2785 0 Oct03 pts/0 00:00:00 bash root 2860 1 0 
+Oct03 ?  00:00:00 /usr/sbin/sshd -D root 3094 2860 0 Oct03 ?  00:00:00 sshd: kluong [priv] kluong 3097 1 0 Oct03 ?  00:00:00 
+/lib/systemd/systemd --user kluong 3098 3097 0 Oct03 ?  00:00:00 (sd-pam) kluong 3112 3094 0 Oct03 ?  00:00:39 sshd: kluong@pts/1 
+kluong 3113 3112 0 Oct03 pts/1 00:00:00 -bash root 3129 3113 0 Oct03 pts/1 00:00:00 su - root 3130 3129 0 Oct03 pts/1 00:00:00 -bash 
+root 3171 3130 0 Oct03 pts/1 00:00:00 tmux root 3173 1 0 Oct03 ?  00:01:10 tmux root 3174 3173 0 Oct03 pts/2 00:00:00 -bash root 3216 
+3173 0 Oct03 pts/3 00:00:00 -bash root 3304 1 0 Oct03 ?  00:00:00 /usr/bin/vmhgfs-fuse .host:/ /mnt/hgfs -o 
+subtype=vmhgfs-fuse,allow_other root 3376 2153 0 Oct04 ?  00:00:00 /usr/lib/gvfs/gvfsd-metadata root 3385 3173 0 Oct03 pts/4 00:00:00 
+-bash root 8238 2 0 Oct06 ?  00:00:00 [kworker/1:2-mm_percpu_wq] root 12108 2 0 Oct06 ?  00:00:00 [kworker/1:0-cgroup_destroy] root 
+12191 2 0 Oct06 ?  00:00:00 [kworker/3:1-mm_percpu_wq] root 13548 2 0 Oct06 ?  00:00:00 [kworker/2:2-mm_percpu_wq] root 16993 2 0 00:20 
+?  00:00:00 [kworker/3:2-cgroup_destroy] root 17038 2 0 00:23 ?  00:00:00 [kworker/u64:0-events_unbound] root 17095 2 0 00:29 ?  
+00:00:00 [kworker/u64:1-events_unbound] root 17115 2 0 00:32 ?  00:00:00 [kworker/0:1-events] root 17123 2 0 00:37 ?  00:00:00 
+[kworker/2:0-ata_sff] root 17143 2 0 00:43 ?  00:00:00 [kworker/2:1-ata_sff] root 17150 2 0 00:43 ?  00:00:00 
+[kworker/u64:2-events_unbound] root 17160 3385 0 00:43 pts/4 00:00:00 nano gimmetheflag.py root 17161 3385 0 00:43 pts/4 00:00:00 -bash 
+root 17162 17161 0 00:43 pts/4 00:00:00 python -c import sys,hashlib; print(hashlib.sha1(sys.stdin.read().strip()).hexdigest()) root 
+17166 3385 0 00:43 pts/4 00:00:00 ps -ef root 17167 3385 0 00:43 pts/4 00:00:00 nano root 18620 2 0 Oct06 ?  00:00:06 
+[kworker/0:0-cgroup_destroy]
