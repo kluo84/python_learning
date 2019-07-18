@@ -1,0 +1,22 @@
+-- Remove the history from
+rm -rf .git
+-- recreate the repos from the current content only
+git init
+git add .
+
+--add account to git if your first time clone
+git config --global user.email "your_git_email"
+git config --global user.name "your_git_username"
+git commit -m "Initial commit"
+
+
+
+-- push to the github remote repos ensuring you overwrite history
+git remote add origin git@github.com:<YOUR ACCOUNT>/<YOUR REPOS>.git
+--create ssh key and copy to github setting
+--make sure your github email set to public
+
+ssh-keygen -t rsa -b 4096 -C "your_git_email"
+set password for sshkey --> copy pub key content to "ssh and gpg" settings
+
+git push -u --force origin master
